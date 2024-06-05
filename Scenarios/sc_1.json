@@ -1,0 +1,21 @@
+{
+  "numPRBs": 135,
+  "PRBbandwidth": 21.29,
+  "buffer": 80192,
+  "slices": [
+    {
+      "name": "s1",
+      "numOfUsers": 1000,
+      "reqBw": 100,
+      "reqLat": 1,
+      "trType": "ftp"
+    },
+    {
+      "name": "s2",
+      "numOfUsers": 100,
+      "reqBw": 100,
+      "reqLat": 1,
+      "trType": "ftp"
+    }
+  ]
+}
