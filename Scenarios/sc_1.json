@@ -4,18 +4,21 @@
   "buffer": 80192,
   "slices": [
     {
-      "name": "s1",
-      "numOfUsers": 1000,
-      "reqBw": 100,
-      "reqLat": 1,
-      "trType": "ftp"
+      "name": "1",
+      "numOfUsers": 100,
+      "trType": "web"
     },
     {
-      "name": "s2",
-      "numOfUsers": 100,
-      "reqBw": 100,
-      "reqLat": 1,
-      "trType": "ftp"
+      "name": "2",
+      "numOfUsers": 20,
+      "reqBw": 800,
+      "trType": "streaming"
+    },
+    {
+      "name": "3",
+      "numOfUsers": 10,
+      "reqLat": 0.5,
+      "trType": "urllc"
     }
   ]
 }
